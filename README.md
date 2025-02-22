@@ -1,0 +1,2 @@
+# Assembly Code Bug: Invalid Memory Access
+This repository demonstrates a common error in assembly programming: accessing memory at an invalid address. The `bug.asm` file contains code that can lead to a segmentation fault, while `bugSolution.asm` provides a corrected version with added bounds checking.  The issue arises from performing arithmetic on a base pointer (`ebx`) and then using that computed address without verifying it lies within the allocated memory region.
